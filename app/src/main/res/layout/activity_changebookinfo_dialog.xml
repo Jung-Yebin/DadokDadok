@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="책제목"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="75dp"/>
+
+        <EditText
+            android:id="@+id/et_change_bookname"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/btn_sky"
+            android:hint="bookname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-160dp"
+            android:layout_marginTop="70dp"
+            android:text="저자이름"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/et_change_author"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/btn_sky"
+            android:hint="author" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-160dp"
+            android:layout_marginTop="130dp"
+            android:text="출판사"/>
+
+        <EditText
+            android:id="@+id/et_change_punisher"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/btn_sky"
+            android:hint="punisher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="-165dp"
+            android:text="출판날짜" />
+
+        <EditText
+            android:id="@+id/et_change_punishdate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/btn_sky"
+            android:hint="punishdate" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="-160dp"
+            android:text="장르"/>
+
+        <Spinner
+            android:id="@+id/spinner_change_genre"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_sky"
+            android:layout_marginTop="250dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="-110dp"
+            android:text="리뷰"/>
+
+        <EditText
+            android:id="@+id/et_change_bookreview"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-130dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/btn_sky"
+            android:hint="bookreview" />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

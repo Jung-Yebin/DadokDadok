@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WishDialog"
+            android:exported="false" />
+        <activity
+            android:name=".WishBookRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WishLibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingDialog"
+            android:exported="false" />
+        <activity
+            android:name=".TimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingBookRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingLibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UsersRankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenreChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalDialog"
+            android:exported="false" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryDialog"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MypageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Write_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

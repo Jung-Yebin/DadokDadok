@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/Gangwongyoyungmodubold"
+            android:title="강원교육 모두 bold" />
+        <item
+            android:id="@+id/Gangwongyoyungmodulight"
+            android:title="강원교육 모두 light" />
+        <item
+            android:id="@+id/Gangwongyoyuksaeom"
+            android:title="강원교육 새옴" />
+        <item
+            android:id="@+id/Gangwongyoyukteunteun"
+            android:title="강원교육 튼튼" />
+        <item
+            android:id="@+id/Gangwongyoyukyeonoksaem"
+            android:title="강원교육 현옥샘" />
+
+</menu>

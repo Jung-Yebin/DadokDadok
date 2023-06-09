@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadingLibraryActivity">
+
+    <Button
+        android:id="@+id/btn_readingtohome"
+        android:layout_width="77dp"
+        android:layout_height="37dp"
+        android:background="#F8F8F8"
+        android:drawableBottom="@drawable/home_size2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <Button
+        android:id="@+id/btn_readingbook_register"
+        android:layout_width="77dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="220dp"
+        android:text="책등록"/>
+
+    <ListView
+        android:id="@+id/readinglist"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>
